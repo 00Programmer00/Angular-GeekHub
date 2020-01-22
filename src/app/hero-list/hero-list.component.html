@@ -1,0 +1,11 @@
+<p>hero-list works!</p>
+<ul>
+  <li *ngFor="let hero of heroes" (click)="selectHero(hero)" class='hero'>
+    <div class='name'>
+      Name: {{hero.name}}
+    </div>
+    <div class='power'>
+      Super Power: {{hero.heroPower}}
+    </div>
+  </li>
+</ul>

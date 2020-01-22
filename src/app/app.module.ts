@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { HeroListComponent } from './hero-list/hero-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    HeroListComponent
   ],
   imports: [
     BrowserModule,
