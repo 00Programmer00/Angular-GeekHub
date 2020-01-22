@@ -1,4 +1,4 @@
-<p>hero-list works!</p>
+<p [ngStyle]='titleStyles'>{{title}}</p>
 <ul>
   <li *ngFor="let hero of heroes" (click)="selectHero(hero)" class='hero'>
     <div class='name'>

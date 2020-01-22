@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroListComponent implements OnInit {
   heroes: object[];
+  title = 'Hello Hero List';
+  titleStyles = {
+    color: 'green',
+    fontSize: '40px',
+    margin: 0,
+    textAlign: 'center'
+  }
 
   constructor() {
   }
